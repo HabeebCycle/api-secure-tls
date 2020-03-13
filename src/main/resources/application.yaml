@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password:
+    url: jdbc:h2:mem:testdb
+    username: sa
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+
+server:
+  port: 8443
+  ssl:
+    key-alias: habeebcycle
+    key-password: habeebcycle
+    key-store: classpath:habeebcycle.jks
+    key-store-password: habeebcycle
+    key-store-type: pkcs12
