@@ -1,4 +1,4 @@
-# Securing a Spring Boot Application with TLS
+# Securing a Spring Boot Application with Transport Layer Security TLS and a Self-Signed Certificate
 
 ### Configuring a Self-Signed Certificate
 We have been developing application with spring boot and able to access the configured unsecured endpoints. 
